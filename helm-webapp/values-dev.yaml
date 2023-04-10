@@ -2,6 +2,6 @@
 replicas: 2
 
 configmap:
-  name: newapp
+  name: myhelmapp-configmap-v2
   data:
     CUSTOM_HEADER: 'This is on the DEV environment !'
