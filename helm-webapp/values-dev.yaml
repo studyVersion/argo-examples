@@ -4,4 +4,4 @@ replicas: 2
 configmap:
   name: newapp
   data:
-    CUSTOM_HEADER: 'This is on the DEV environment hopa!'
+    CUSTOM_HEADER: 'This is on the DEV environment !'
