@@ -4,4 +4,4 @@ replicas: 2
 configmap:
   name: myhelmapp-configmap-v2
   data:
-    CUSTOM_HEADER: 'This is on the DEV environment !'
+    CUSTOM_HEADER: 'This is on the DEV environment using helm!'
