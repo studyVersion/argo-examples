@@ -1,6 +1,7 @@
-appName: newapp
+
 replicas: 2
 
 configmap:
+  name: newapp
   data:
     CUSTOM_HEADER: 'This is on the DEV environment using helm!'
